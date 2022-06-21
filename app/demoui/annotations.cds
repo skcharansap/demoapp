@@ -16,7 +16,11 @@ annotate service.Books with @(
             $Type : 'UI.DataField',
             Label : 'stock',
             Value : stock,
-        },
+        },{
+            $Type : 'UI.DataField',
+            Label : 'Date of Publication',
+            Value : date_of_publication,
+        }
     ]
 );
 annotate service.Books with @(
